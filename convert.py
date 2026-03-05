@@ -4,8 +4,8 @@ convert.py — Converts sing-box/Throne rules.json → V2Box native route format
 
 Source of truth: rules.json (sing-box / Throne format)
 Outputs:
-  - v2box_routes.json     (V2Box native route objects)
-  - v2box_deeplink.txt    (v2box://routes?multi=<base64> link for iOS import)
+  - v2box_pc_rules_route.json     (V2Box native route objects)
+  - v2box_phone_link_rules_route.txt    (v2box://routes?multi=<base64> link for iOS import)
 
 Usage:
   python3 convert.py [path/to/rules.json]
@@ -173,14 +173,14 @@ def main():
     out_dir = input_path.parent
 
     # Write V2Box JSON
-    routes_path = out_dir / "v2box_routes.json"
+    routes_path = out_dir / "v2box_pc_rules_route.json"
     with open(routes_path, "w", encoding="utf-8") as f:
         json.dump(v2box_routes, f, ensure_ascii=False, indent=2)
     print(f"✅ {routes_path}")
 
     # Write deep link
     deeplink = make_deeplink(v2box_routes)
-    deeplink_path = out_dir / "v2box_deeplink.txt"
+    deeplink_path = out_dir / "v2box_phone_link_rules_route.txt"
     with open(deeplink_path, "w", encoding="utf-8") as f:
         f.write(deeplink)
     print(f"✅ {deeplink_path}")

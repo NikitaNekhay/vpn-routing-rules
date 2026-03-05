@@ -9,8 +9,8 @@ A GitHub Action automatically converts `rules.json` into V2Box-compatible format
 ```
 rules.json              ← edit this (sing-box / Throne format)
 convert.py              ← conversion script
-v2box_routes.json       ← generated V2Box route objects
-v2box_deeplink.txt      ← generated v2box:// import link for iOS
+v2box_pc_rules_route.json       ← generated V2Box route objects
+v2box_phone_link_rules_route.txt      ← generated v2box:// import link for iOS
 .github/workflows/      ← auto-conversion on push
 ```
 
@@ -39,10 +39,10 @@ Use `rules.json` directly — it's the native sing-box format.
 
 ### V2Box (iOS)
 
-After pushing, open the raw link to `v2box_deeplink.txt` in Safari:
+After pushing, open the raw link to `v2box_phone_link_rules_route.txt` in Safari:
 
 ```
-https://raw.githubusercontent.com/<user>/<repo>/main/v2box_deeplink.txt
+https://raw.githubusercontent.com/<user>/<repo>/main/v2box_phone_link_rules_route.txt
 ```
 
 Copy the `v2box://routes?multi=...` link and open it. V2Box will import all rules.
