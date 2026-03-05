@@ -1,0 +1,75 @@
+[
+  {
+    "name": "route.C381D8FC-19A1-418B-AB8C-511DBFB11B0B",
+    "type": "Domain",
+    "tag": "direct",
+    "matchMode": "keyword",
+    "listIP": [],
+    "remark": "Rule 1: Domain Keywords → direct",
+    "isEnable": true,
+    "list": [
+      "yandex",
+      "yastatic",
+      "yadi.sk",
+      "xn--80aswg",
+      "xn--d1acpjx3f.xn--p1ai",
+      "xn--c1avg",
+      "xn--80asehdb",
+      "xn--p1acf",
+      "xn--p1ai",
+      "google.com",
+      "gstatic.com",
+      "yahoo",
+      "bing",
+      "tineye",
+      "duckduckgo",
+      "apple",
+      "vk.com",
+      "userapi.com",
+      "vk-cdn.me",
+      "mvk.com",
+      "vk-cdn.net",
+      "vk-portal.net",
+      "vk.cc",
+      "icq",
+      "livejournal",
+      "microsoft",
+      "live.com",
+      "login.live",
+      "tradingview",
+      "timeweb",
+      "timeweb.cloud",
+      "moodle.innopolis.university",
+      "sso.university.innopolis.ru",
+      "151771.ip-ptr.tech"
+    ]
+  },
+  {
+    "name": "route.AF2204D9-0B8E-4E9D-A375-F88B399115FB",
+    "type": "Domain",
+    "tag": "direct",
+    "matchMode": "regexp",
+    "listIP": [],
+    "remark": "Rule 2: TLD Suffix (.ru, .su, .by) → direct",
+    "isEnable": true,
+    "list": [
+      "regexp:\\.ru$",
+      "regexp:\\.su$",
+      "regexp:\\.by$"
+    ]
+  },
+  {
+    "name": "route.FF953D10-55C3-4968-86E2-9B7B3CFBA3FE",
+    "type": "IP",
+    "tag": "direct",
+    "matchMode": "full",
+    "listIP": [
+      "geoip:private",
+      "geoip:RU",
+      "geoip:BY"
+    ],
+    "remark": "Rule 3: GeoIP → direct",
+    "isEnable": true,
+    "list": []
+  }
+]
