@@ -1,0 +1,1 @@
+Proxy routing rules — single source (sing-box/Throne), auto-converts to V2Box iOS via GitHub Actions

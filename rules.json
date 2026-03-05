@@ -1,0 +1,61 @@
+{
+  "rules": [
+    {
+      "domain": [],
+      "domain_keyword": [
+        "yandex",
+        "yastatic",
+        "yadi.sk",
+        "xn--80aswg",
+        "xn--d1acpjx3f.xn--p1ai",
+        "xn--c1avg",
+        "xn--80asehdb",
+        "xn--p1acf",
+        "xn--p1ai",
+        "google.com",
+        "gstatic.com",
+        "yahoo",
+        "bing",
+        "tineye",
+        "duckduckgo",
+        "apple",
+        "vk.com",
+        "userapi.com",
+        "vk-cdn.me",
+        "mvk.com",
+        "vk-cdn.net",
+        "vk-portal.net",
+        "vk.cc",
+        "icq",
+        "livejournal",
+        "microsoft",
+        "live.com",
+        "login.live",
+        "tradingview",
+        "timeweb",
+        "timeweb.cloud",
+        "moodle.innopolis.university",
+        "sso.university.innopolis.ru",
+        "151771.ip-ptr.tech"
+      ],
+      "domain_regex": [],
+      "domain_suffix": [".ru", ".su", ".by"],
+      "geoip": ["private", "ru", "by"],
+      "geosite": [],
+      "outbound": "direct"
+    },
+    {
+      "outbound": "proxy",
+      "process_name": [
+        "chrome.exe",
+        "firefox.exe",
+        "browser.exe",
+        "Notion.exe",
+        "claude.exe",
+        "Code.exe",
+        "viber.exe",
+        "Telegram.exe"
+      ]
+    }
+  ]
+}

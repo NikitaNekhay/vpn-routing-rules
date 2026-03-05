@@ -1,0 +1,38 @@
+name: Convert Rules
+
+on:
+  push:
+    paths:
+      - 'rules.json'
+  workflow_dispatch:  # manual trigger button
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Convert rules.json → V2Box format
+        run: python3 convert.py rules.json
+
+      - name: Commit & push generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add v2box_routes.json v2box_deeplink.txt
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔄 Auto-convert: update V2Box routes from rules.json"
+            git push
+          fi
