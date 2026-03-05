@@ -42,7 +42,7 @@ Use `rules.json` directly — it's the native sing-box format.
 After pushing, open the raw link to `v2box_phone_link_rules_route.txt` in Safari:
 
 ```
-https://raw.githubusercontent.com/<user>/<repo>/main/v2box_phone_link_rules_route.txt
+https://raw.githubusercontent.com/NikitaNekhay/vpn-routing-rules/main/v2box_phone_link_rules_route.txt
 ```
 
 Copy the `v2box://routes?multi=...` link and open it. V2Box will import all rules.
