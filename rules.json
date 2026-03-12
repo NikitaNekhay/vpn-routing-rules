@@ -36,8 +36,7 @@
         "timeweb.cloud",
         "gosuslugi",
         "moodle.innopolis.university",
-        "sso.university.innopolis.ru",
-        "pm.nekhaynikita.ru"
+        "sso.university.innopolis.ru"
       ],
       "domain_regex": [],
       "domain_suffix": [".ru", ".su", ".by"],
@@ -47,9 +46,6 @@
     },
     {
       "outbound": "proxy",
-      "domain_keyword": [
-        "n8n.nekhaynikita.ru"
-      ],
       "process_name": [
         "chrome.exe",
         "firefox.exe",
