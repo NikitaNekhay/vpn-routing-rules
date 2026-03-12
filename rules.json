@@ -37,7 +37,7 @@
         "gosuslugi",
         "moodle.innopolis.university",
         "sso.university.innopolis.ru",
-        "151771.ip-ptr.tech"
+        "pm.nekhaynikita.ru"
       ],
       "domain_regex": [],
       "domain_suffix": [".ru", ".su", ".by"],
@@ -47,6 +47,9 @@
     },
     {
       "outbound": "proxy",
+      "domain_keyword": [
+        "n8n.nekhaynikita.ru"
+      ],
       "process_name": [
         "chrome.exe",
         "firefox.exe",
