@@ -1,6 +1,6 @@
 [
   {
-    "name": "route.1A238CF8-238B-4DD6-B5C4-EB5040840B9F",
+    "name": "route.CA82DAFC-C4A7-44DE-8EF3-E20F7D041C6B",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "keyword",
@@ -42,11 +42,11 @@
       "gosuslugi",
       "moodle.innopolis.university",
       "sso.university.innopolis.ru",
-      "151771.ip-ptr.tech"
+      "pm.nekhaynikita.ru"
     ]
   },
   {
-    "name": "route.FCC008FE-9A7D-46F3-AFCC-CA772C28E5FA",
+    "name": "route.A00E3124-5090-4A76-85C2-35ACE7BDF700",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "regexp",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "name": "route.A2DC32BB-AC5E-4B9C-A118-DD6F28508EA5",
+    "name": "route.245FF529-526F-418D-9DEA-CC1E04B99221",
     "type": "IP",
     "tag": "direct",
     "matchMode": "full",
@@ -72,5 +72,17 @@
     "remark": "Rule 3: GeoIP → direct",
     "isEnable": true,
     "list": []
+  },
+  {
+    "name": "route.F7F3F083-C2FE-4657-93E5-AD37EBA26A7E",
+    "type": "Domain",
+    "tag": "proxy",
+    "matchMode": "keyword",
+    "listIP": [],
+    "remark": "Rule 4: Domain Keywords → proxy",
+    "isEnable": true,
+    "list": [
+      "n8n.nekhaynikita.ru"
+    ]
   }
 ]
