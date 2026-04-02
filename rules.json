@@ -53,6 +53,9 @@
         "Notion.exe",
         "claude.exe",
         "Code.exe",
+        "claude.exe.old.1775037408696",
+        "claude.exe.*",
+        "claude.exe.old.*",
         "viber.exe",
         "Telegram.exe"
       ]
