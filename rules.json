@@ -36,7 +36,10 @@
         "timeweb.cloud",
         "gosuslugi",
         "moodle.innopolis.university",
-        "sso.university.innopolis.ru"
+        "sso.university.innopolis.ru",
+        "krr.aero",
+        "aeraero",
+        "bitrix24"
       ],
       "domain_regex": [],
       "domain_suffix": [".ru", ".su", ".by"],
@@ -57,7 +60,8 @@
         "claude.exe.*",
         "claude.exe.old.*",
         "viber.exe",
-        "Telegram.exe"
+        "Telegram.exe",
+        "phpstorm64.exe"
       ]
     }
   ]
