@@ -39,7 +39,10 @@
         "sso.university.innopolis.ru",
         "krr.aero",
         "aeraero",
-        "bitrix24"
+        "bitrix24",
+        "github",
+        "gitlab",
+        "outlook.office.com"
       ],
       "domain_regex": [],
       "domain_suffix": [".ru", ".su", ".by"],
@@ -59,6 +62,9 @@
         "claude.exe.old.1775037408696",
         "claude.exe.*",
         "claude.exe.old.*",
+        "Codex.exe",
+        "Codex.exe.*",
+        "Codex.*",
         "viber.exe",
         "Telegram.exe",
         "phpstorm64.exe"
