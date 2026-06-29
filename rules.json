@@ -39,10 +39,11 @@
         "sso.university.innopolis.ru",
         "krr.aero",
         "aeraero",
+        "aer.aero",
+        "new.krr.aero",
         "bitrix24",
-        "github",
-        "gitlab",
-        "outlook.office.com"
+        "outlook.office.com",
+        "avito"
       ],
       "domain_regex": [],
       "domain_suffix": [".ru", ".su", ".by"],
@@ -54,6 +55,9 @@
       "outbound": "proxy",
       "process_name": [
         "chrome.exe",
+        "git.exe",
+        "git-remote-https.exe", 
+        "ssh.exe",
         "firefox.exe",
         "browser.exe",
         "Notion.exe",
@@ -67,7 +71,8 @@
         "Codex.*",
         "viber.exe",
         "Telegram.exe",
-        "phpstorm64.exe"
+        "phpstorm64.exe",
+        "Cursor.exe"
       ]
     }
   ]
