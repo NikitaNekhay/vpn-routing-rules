@@ -1,0 +1,24 @@
+# Settings to avoid errors on working with GIT while VPS is turned on
+# IdentityFile - path to your private key for ssh
+# :2080 - is a port for your proxy server, you can change it to your own port if you use another one (check Proxy system settings for that value)
+
+Host github.com
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/private
+    IdentitiesOnly yes
+    ProxyCommand connect -S 127.0.0.1:2080 %h %p
+
+Host gitlab.com
+    HostName gitlab.com
+    User git
+    IdentityFile ~/.ssh/private
+    IdentitiesOnly yes
+    ProxyCommand connect -S 127.0.0.1:2080 %h %p
+
+Host gitverse.ru
+    HostName gitverse.ru
+    User git
+    IdentityFile ~/.ssh/private
+    IdentitiesOnly yes
+    ProxyCommand connect -S 127.0.0.1:2080 %h %p
