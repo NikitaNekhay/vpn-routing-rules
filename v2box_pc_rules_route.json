@@ -1,6 +1,6 @@
 [
   {
-    "name": "route.D019D1A7-9E94-496E-825F-3881142451A5",
+    "name": "route.59497A55-E780-4A39-9BF5-E82C099EE067",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "keyword",
@@ -45,7 +45,7 @@
     ]
   },
   {
-    "name": "route.1DC24CDD-87BC-409C-87BA-ABCD17E15814",
+    "name": "route.2EE55E12-DE58-458E-BDBE-F9F63CAAA16F",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "regexp",
@@ -59,7 +59,7 @@
     ]
   },
   {
-    "name": "route.3931BD43-2B17-4D98-AF91-D78C63B32580",
+    "name": "route.A5448356-EB07-4E4E-B174-3EF65C141083",
     "type": "IP",
     "tag": "direct",
     "matchMode": "full",
