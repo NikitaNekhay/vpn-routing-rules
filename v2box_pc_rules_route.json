@@ -1,6 +1,6 @@
 [
   {
-    "name": "route.59497A55-E780-4A39-9BF5-E82C099EE067",
+    "name": "route.ECB3DC63-6DDB-4274-B27F-7E173A07B2E6",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "keyword",
@@ -41,11 +41,18 @@
       "timeweb.cloud",
       "gosuslugi",
       "moodle.innopolis.university",
-      "sso.university.innopolis.ru"
+      "sso.university.innopolis.ru",
+      "krr.aero",
+      "aeraero",
+      "aer.aero",
+      "new.krr.aero",
+      "bitrix24",
+      "outlook.office.com",
+      "avito"
     ]
   },
   {
-    "name": "route.2EE55E12-DE58-458E-BDBE-F9F63CAAA16F",
+    "name": "route.2EB47C78-024C-45AD-99B1-FBB80EA7F492",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "regexp",
@@ -59,7 +66,7 @@
     ]
   },
   {
-    "name": "route.A5448356-EB07-4E4E-B174-3EF65C141083",
+    "name": "route.2302A507-B522-4B89-A18F-AF5F0D8186B2",
     "type": "IP",
     "tag": "direct",
     "matchMode": "full",
