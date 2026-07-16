@@ -1,6 +1,6 @@
 [
   {
-    "name": "route.ECB3DC63-6DDB-4274-B27F-7E173A07B2E6",
+    "name": "route.43DD8DBE-F34C-48A0-826A-0D57C502C153",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "keyword",
@@ -48,11 +48,13 @@
       "new.krr.aero",
       "bitrix24",
       "outlook.office.com",
-      "avito"
+      "avito",
+      "vault.direkt.ink",
+      "direkt.ink"
     ]
   },
   {
-    "name": "route.2EB47C78-024C-45AD-99B1-FBB80EA7F492",
+    "name": "route.573C88A6-FE77-4423-A385-35D50B302331",
     "type": "Domain",
     "tag": "direct",
     "matchMode": "regexp",
@@ -66,7 +68,7 @@
     ]
   },
   {
-    "name": "route.2302A507-B522-4B89-A18F-AF5F0D8186B2",
+    "name": "route.460D9C87-40B7-421D-8018-1C212BD255E0",
     "type": "IP",
     "tag": "direct",
     "matchMode": "full",
