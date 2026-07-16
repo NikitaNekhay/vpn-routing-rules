@@ -43,7 +43,9 @@
         "new.krr.aero",
         "bitrix24",
         "outlook.office.com",
-        "avito"
+        "avito",
+        "vault.direkt.ink",
+        "direkt.ink"
       ],
       "domain_regex": [],
       "domain_suffix": [".ru", ".su", ".by"],
