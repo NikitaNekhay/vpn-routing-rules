@@ -33,6 +33,10 @@ Edit `rules.json` and push. The action handles the rest.
 }
 ```
 
+### HAPP
+
+Take json from happ_rules.json paste here link[https://routing.happ.su/en] and get the URL generated.
+
 ### Throne (PC)
 
 Use `rules.json` directly — it's the native sing-box format.
